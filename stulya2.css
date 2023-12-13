@@ -1,0 +1,80 @@
+img{
+    width: 100px;
+}
+#doroga{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1600px;
+}
+#belayamashina{
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    z-index: 1;
+    transform: scaleX(-1);
+    height: 70px;
+    width: 200px;
+}
+#drugayamashina{
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    z-index: 1;
+    transform: scaleX(-1);
+    height: 130px;
+    width: 200px;
+}
+#flazhok{
+    position: absolute;
+    bottom: 90px;
+    right: 20px;
+    z-index: 1;
+    width: 300px;
+    height: 500px;
+}
+#solnishko{
+    top: 10px;
+    right: 200px;
+    position: absolute;
+    z-index: 1;
+    width: 400px;
+    height: 400px;
+}
+#oblachko{
+    top: 50px;
+    right: 1300px;
+    position: absolute;
+    z-index: 1;
+    width: 500px;
+    height: 300px;
+}
+body{
+    background-image: url("pole.jpg");
+    text-align: center;
+    overflow: hidden;
+}
+form{
+    background-color: #ffffffa9;
+    display: inline-block;
+    position: relative;
+    margin-top: 100px;
+    font-size: 27px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.224);
+    border-radius: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+    z-index: 2;
+}
+button{
+    font-size: 28px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding: 0 15px;
+    font-family: sans-serif;
+}
+button:hover{
+    cursor: pointer;
+}
